@@ -17,7 +17,7 @@
     background-position: center;
 }
 .nutrtionpage {
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(nutrition.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(homepage.jpg);
     height: 50vh;  
     background-size: cover;
     background-position: center;
