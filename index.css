@@ -23,6 +23,11 @@
     background-position: center;
 }
 
+.text1 h1{
+    text-align: left;
+    text-decoration: underline;
+    white-space: nowrap;
+}
 
 .navbar {
     position: fixed;
