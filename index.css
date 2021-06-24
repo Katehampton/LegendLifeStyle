@@ -8,6 +8,10 @@
     position: relative;
     width: 50%;
   }
+  .container2 {
+    position: relative;
+    width: 50%;
+  }
   
   .image {
     display: block;
@@ -28,6 +32,9 @@
   }
   
   .container:hover .overlay {
+    width: 100%;
+  }
+  .container2:hover .overlay {
     width: 100%;
   }
 
