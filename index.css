@@ -235,7 +235,8 @@ h2{
     
 }
 #google_translate_element {
-    right: 5%;
+   float: right;
+   position:absolute;
 }
 .vitamintitle h1{
     color: white;
