@@ -234,7 +234,9 @@ h2{
     width:100%;
     
 }
-
+#google_translate_element {
+    right: 5%;
+}
 .vitamintitle h1{
     color: white;
     font-size: 70px;
