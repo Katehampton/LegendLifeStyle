@@ -7,14 +7,6 @@
 .container {
     position: relative;
     width: 50%;
-    top: 85%;
-    left: 45%;
-  }
-  .container2 {
-    position: relative;
-    width: 50%;
-    top: 82%;
-    right: 45%;
   }
   
   .image {
@@ -30,7 +22,7 @@
     right: 0;
     background-color: #5eb14a;
     overflow: hidden;
-    width: 50%;
+    width: 0;
     height: 100%;
     transition: .5s ease;
   }
@@ -38,10 +30,7 @@
   .container:hover .overlay {
     width: 50%;
   }
-  .container2:hover .overlay {
-    width: 50%;
-  }
-
+ 
   .text {
     color: white;
     font-size: 20px;
