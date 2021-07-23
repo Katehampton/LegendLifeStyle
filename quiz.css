@@ -1,40 +1,84 @@
 *{
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-:root {
-    --hue-neutral: 200l;
-    --hue-wrong: 0;
-    --hue-correct: 145;
-}
-
-body {
-    --hue: var(--hue-neutral);
-    padding: 0;
     margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar {
+    position: fixed;
     display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    background-color: hsl(var(--hue),100%, 20%);
+    flex-direction: row;
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
 }
 
-body.correct {
-    --hue: var(--hue-correct);
+.nav {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+}
+
+a {
+    text-decoration: none;
+   margin:15px;
+   color: #000;
+   text-transform: uppercase; 
 }
 
 
-body.wrong {
-    --hue: var(--hue-wrong);
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
 }
 
-.container {
-    width: 800px;
-    max-width: 80%;
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0 0 10px 2px;
+ul li{
+    display: inline-block;
+}
+
+ul li a{ 
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.quizpage {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(quiz.jpg);
+    height: 50vh;  
+    background-size: cover;
+    background-position: center;
+    width:100%;
+}
+.quiztitle{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.quiztitle h1{
+    color: white;
+    font-size: 70px;
 }
