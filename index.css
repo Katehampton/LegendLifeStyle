@@ -246,3 +246,9 @@ h2{
     width: 300px;
     width:100%;
 }
+
+.hpimg img{
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+  }
