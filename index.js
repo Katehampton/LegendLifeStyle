@@ -1,15 +1,15 @@
 const Question = document.querySelector("#question");
 const Answer = document.querySelector("#answer");
 const Verdict = document.querySelector("#verdict");
-
-
-var number = 0;
-
-
+const questionList = ["How many essential vitamins are there", "What is the chemical name for Vitamin C", "How many chemical names are there for vitamin E", ];
+const answerList = ["13", "Ascorbic Acid.", "2"];
+const congratsList = ["Correct!", "Well Done!", "Amazing!"];
+const wrongList = ["Incorrect", "Nope.", "No! You're wrong!"];
+var number = 0; 
+let text = questionList[number] + "?";
 Question.innerHTML = text;
-
 function quizFunction() {
-    if (Answer.value == answerList[number]){
+    if (Answer.value == answerList[number]) {
         document.body.style.backgroundColor = "Green";
         Verdict.innerHTML = congratsList[number];
     } else {
@@ -18,11 +18,8 @@ function quizFunction() {
     }
     text = "";
 }
-var questions = [
-    new Question("How many Essential Vitamins are there?",
- [ "12", "15", "13", "11" ], "11"),
-
 function nextQuestion() {
     number += 1;
+    text += questionList[number] + "?";
     Question.innerHTML = text;
 }
