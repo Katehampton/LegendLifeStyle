@@ -111,13 +111,13 @@
     display: block;
 }
 
-
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: rgb(180, 233, 167);}
   
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: #ffffff;}
   .dropdown:hover .dropbtn a {color: #000000;}
+
 
 
 .navbar {
