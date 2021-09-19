@@ -79,10 +79,16 @@
     border: none;    
 }
 
-  .dropdown {
+  .dropdown a{
+    color: white;
+}
+
+.dropdown {
     position: relative;
     display: inline-block;
     color: black;
+    
+
 }
   
   .dropdown-content {
@@ -108,6 +114,8 @@
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: #ffffff;}
+  .dropdown:hover .dropbtn a {color: #000000;}
+
 
 .navbar {
     position: fixed;
