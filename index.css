@@ -49,6 +49,10 @@
     background-position: center;
     width:100%;
 }
+.homepageBC {
+    background-color: #93ca85;
+}
+
 .fitnesspage {
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(fitness.jpg);
     height: 50vh;  
