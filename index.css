@@ -64,8 +64,8 @@
     width:100%;
 }
 
-.mineralPage{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(mineralsImg.jpg);
+.mineralspage{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(mineralImg.jpg);
     height: 50vh;  
     background-size: cover;
     background-position: center;
@@ -166,12 +166,25 @@ ul li.active a{
     color: white;
     font-size: 70px;
 }
+
+.mineralstitle{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.mineralstitle h1{
+    color: white;
+    font-size: 70px;
+}
+
 .nutritiontitle { 
     position: absolute;
     top: 25%;
     left: 50%;
     transform: translate(-50%,-50%)
 }
+
 .vitamintitle {
     position: absolute;
     top: 25%;
@@ -290,5 +303,4 @@ h2{
     height: 350px;
     width: 350px;
     margin-left: 5%;
-   
   }
