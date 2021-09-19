@@ -94,7 +94,7 @@
     
 
 }
-   .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #ffffff;
@@ -346,4 +346,55 @@ h2{
     height: 350px;
     width: 350px;
     margin-left: 5%;
+  }
+
+.fitnessText {
+    margin-right: 5%;
+    width: 60%;
+    padding: 10px;
+    overflow-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    text-indent: 50px;
+}
+
+
+.fitnessImg .fitness1 img{
+    border-radius: 50%;
+    height: 300px;
+    width: 310px;
+    margin-left: 4%;
+    z-index: 1;
+    position: absolute;
+    top: 65%;
+  }
+
+  .fitness2 img{
+    border-radius: 50%;
+    height: 200px;
+    width: 210px;
+    margin-left: 15%;
+    z-index: 2;
+    position: absolute;
+    top: 90%;
+  }
+
+  .fitness3 img {
+    border-radius: 50%;
+    height: 190px;
+    width: 210px;
+    margin-left: 4%;
+    z-index: 3;
+    position: absolute;
+    top: 105%;
+  }
+
+  .fitness4 img {
+    border-radius: 50%;
+    height: 190px;
+    width: 210px;
+    margin-left: 20%;
+    z-index: 4;
+    position: absolute;
+    top: 54%;
   }
