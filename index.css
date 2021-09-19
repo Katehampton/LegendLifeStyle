@@ -53,13 +53,6 @@
     background-color: #93ca85;
 }
 
-.fitnesspage {
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(fitness.jpg);
-    height: 50vh;  
-    background-size: cover;
-    background-position: center;
-    width:100%;
-}
 .nutrtionpage {
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(nutrition.jpg);
     height: 50vh;  
@@ -228,12 +221,7 @@ ul li.active a{
     transform: translate(-50%,-50%)
 }
 
-.vitamintitle {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%,-50%)
-}
+
 .nutritiontitle h1 {
     color: white;
     font-size: 70px;
@@ -313,19 +301,7 @@ h2{
     text-transform: lowercase;
   }
 
-.Vitaminpage {
-     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Vitamins.jpg);
-    height: 50vh;  
-    background-size: cover;
-    background-position: center;
-    width:100%;
-    
-}
 
-.vitamintitle h1{
-    color: white;
-    font-size: 70px;
-}
 
 .img-minerals {
     top: 75%;
