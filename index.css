@@ -49,8 +49,13 @@
     background-position: center;
     width:100%;
 }
-.homepageBC {
-    background-color: #93ca85;
+
+.fitnesspage {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(fitness.jpg);
+   height: 50vh;  
+   background-size: cover;
+   background-position: center;
+   width:100%;
 }
 
 .nutrtionpage {
@@ -104,7 +109,7 @@
     display: block;
 }
 
-  .dropdown-content a:hover {background-color: rgb(180, 233, 167);}
+  .dropdown-content a:hover {background-color: rgb(196, 241, 184);}
   
   .dropdown:hover .dropdown-content {display: block;}
   
