@@ -1,7 +1,8 @@
 
 body {
-    font-family: "Lato", sans-serif;
-    background-color: rgb(112, 185, 123);
+  font-family: "Lato", sans-serif;
+  background-color: rgb(112, 185, 123);
+  padding-bottom: 150px;
   }
   
 .sidenav {
