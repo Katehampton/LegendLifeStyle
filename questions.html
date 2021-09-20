@@ -9,14 +9,13 @@
         <link rel="stylesheet" href="questions.css">
     </head>
     <body>
-        <h1>Quiz</h1>
-        <h2 id="question"></h2>
-        <input id="answer">
-        <button onclick="quizFunction()">Submit</button>
-        <br><br><br>
-        <button onclick="nextQuestion()">Next Question</button>
-        <h2 id="verdict"></h2>
-        
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="information.html">Nutrition</a>
+            <a href="fitness.html">Fitness</a>
+          </div>
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>        
         <script src="index.js" async defer></script>
     </body>
 </html>
