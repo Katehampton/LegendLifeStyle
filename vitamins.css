@@ -120,6 +120,7 @@ ul li.active a{
 .main{
     max-width: 1200px;
     margin: auto;
+    font-size: 18.5px;
 }
 .vitamintitle h1{
     color: white;
