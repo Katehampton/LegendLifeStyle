@@ -132,7 +132,7 @@ body {
     display: none;
     position: absolute;
     background-color: #ffffff;
-    min-width: 188px;
+    min-width: 193px;
     box-shadow: 0px 9px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     color: black;
@@ -365,7 +365,16 @@ h2{
     margin-left: 5%;
   }
 
-.fitnessText {
+.fitnessText{
+    margin-right: 5%;
+    width: 60%;
+    padding: 10px;
+    overflow-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    text-indent: 50px;
+}
+.mineralText  {
     margin-right: 5%;
     width: 60%;
     padding: 10px;
@@ -389,7 +398,26 @@ ul.fitnessList {
     top: 65%;
   }
 
-  .fitness2 img{
+  .mineralImg   .mineral1 img{
+    border-radius: 50%;
+    height: 300px;
+    width: 320px;
+    margin-left: 3%;
+    z-index: 1;
+    position: absolute;
+    top: 65%;
+  }
+
+  .fitness2  img{
+    border-radius: 50%;
+    height: 200px;
+    width: 210px;
+    margin-left: 15%;
+    z-index: 2;
+    position: absolute;
+    top: 90%;
+  }
+  .mineral2 img {
     border-radius: 50%;
     height: 200px;
     width: 210px;
@@ -399,7 +427,16 @@ ul.fitnessList {
     top: 90%;
   }
 
-  .fitness3 img {
+  .fitness3 img{
+    border-radius: 50%;
+    height: 210px;
+    width: 220px;
+    margin-left: 4%;
+    z-index: 3;
+    position: absolute;
+    top: 105%;
+  }
+  .mineral3 img {
     border-radius: 50%;
     height: 210px;
     width: 220px;
@@ -418,3 +455,15 @@ ul.fitnessList {
     position: absolute;
     top: 54%;
   }
+
+  .mineral4 img{
+    border-radius: 50%;
+    height: 200px;
+    width: 210px;
+    margin-left: 20%;
+    z-index: 4;
+    position: absolute;
+    top: 54%;
+  }
+
+  
